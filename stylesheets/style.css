@@ -14,19 +14,22 @@ header {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
-    display: table-cell;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
 nav li {
-    border: 1px solid black;
-    margin-left: auto;
-    margin-right: auto;
+    border-right: 1px solid black;
     width: 100px;
-    height: 30px;
+    height: 35px;
+    text-align: center;
+    background-color: lightgray; /* For browsers that do not support gradients */
+    background-image: linear-gradient(lightgray, black);
 }
 
 nav a {
     text-decoration: none;
+    color: white;
 }
 
 .center {
@@ -34,10 +37,24 @@ nav a {
     vertical-align: middle;
 }
 
-.apple-icon{
-    padding-left: 40px; 
+.last {
+  border: 0;
+  width: 200px;
 }
 
-.store {
-    padding-left: 30px;
+.container-search {
+    position: relative;
+    width: 100%;
+}
+
+.search {
+    border-radius: 80px;
+    float: left;
+}
+
+.icon-search {
+    position: absolute;
+    right: 160px;
+    top: 5px;
+    color: black;
 }
