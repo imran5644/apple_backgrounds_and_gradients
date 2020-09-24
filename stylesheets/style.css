@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+ nav ul {
+    list-style-type: none;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    display: table-cell;
+}
+
+nav li {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 30px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.center {
+    line-height: 1.5;
+    vertical-align: middle;
+}
+
+.apple-icon{
+    padding-left: 40px; 
+}
+
+.store {
+    padding-left: 30px;
+}
