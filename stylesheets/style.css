@@ -18,13 +18,17 @@ header {
     border: 1px solid black;
 }
 
-nav li {
-    border-right: 1px solid black;
-    width: 100px;
-    height: 35px;
-    text-align: center;
+nav li, 
+.input-search {
     background-color: lightgray; /* For browsers that do not support gradients */
     background-image: linear-gradient(lightgray, black);
+}
+
+nav li {
+    border-right: 1px solid black;
+    min-width: 100px;
+    height: 35px;
+    text-align: center;
 }
 
 nav a {
@@ -38,23 +42,25 @@ nav a {
 }
 
 .last {
-  border: 0;
-  width: 200px;
+  border-right: 0;
+  min-width: 200px;
 }
 
 .container-search {
     position: relative;
-    width: 100%;
+    top: 5px;
+    margin-left: 10px;
 }
 
-.search {
+.input-search {
     border-radius: 80px;
     float: left;
+    line-height: 1.5;
 }
 
 .icon-search {
     position: absolute;
-    right: 160px;
-    top: 5px;
-    color: black;
+    right: 170px;
+    color: white;
+    top: 2px;
 }
