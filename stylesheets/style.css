@@ -88,7 +88,7 @@ nav a {
 
 nav li,
 .background-header {
-text-align: center;
+    text-align: center;
 }
 
 nav a,
@@ -150,13 +150,8 @@ nav a,
 
 .grid-container {
     display: grid;
-    grid-gap: 2px;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 280px 280px 280px 280px;
 }
-
-/* .grid-item {
-    text-align: center;
-} */
 
 .description {
     font-size: 20px;
@@ -185,11 +180,20 @@ nav a,
     background-repeat: no-repeat; 
 }
 
-@media (min-width: 600px) and (max-width:850px) {
-    .grid-container{
-        grid-template-columns: 50% 50%;
-        /* grid-row-gap: 2px; */
-        /* height: 400px; */
+@media (min-width: 300px) and (max-width:850px) {
+
+    .grid-item {
+        text-align: center;
+        min-height: 200px;
+    }
+
+    .products {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .background-header {
+        height: 420px;
     }
 }
 
@@ -202,5 +206,6 @@ footer ul {
     list-style-type: none;
     font-size: 10px;
 }
+
 
 
