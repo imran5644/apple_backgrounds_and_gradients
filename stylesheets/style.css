@@ -14,7 +14,7 @@ body {
 header {
     margin-left: auto;
     margin-right: auto;
-    width: 77%;
+    width: 74%;
 }
 
  nav ul {
@@ -49,7 +49,7 @@ nav a {
 
 .last {
   border-right: 0;
-  min-width: 200px;
+  min-width: 148px;
 }
 
 .container-search {
@@ -61,16 +61,17 @@ nav a {
 
 .input-search {
     border-radius: 80px;
-    float: left;
     line-height: 1.5;
     max-width: 100px;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .icon-search {
     position: absolute;
-    right: 135px;
+    right: 80px;
     color: white;
-    top: 2px;
+    top: 1px;
 }
 
 nav li,
