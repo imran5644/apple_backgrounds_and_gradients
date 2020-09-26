@@ -92,8 +92,6 @@ nav a {
 
 nav li:hover {
   background-image: linear-gradient(darkgrey, black);
-
-  /* border-radius: 10px; */
 }
 
 .center {
@@ -114,7 +112,7 @@ nav li:hover {
 }
 
 .last {
-  min-width: 140px;
+  min-width: 125px;
 }
 
 .last,
