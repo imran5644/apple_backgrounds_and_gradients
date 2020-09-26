@@ -6,9 +6,22 @@
 body {
   background-image: url('https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg');
   background-repeat: no-repeat;
-  background-size: 1440px;
-  background-position: -80px -750px;
+  background-size: cover;
+  background-position: center -670px;
+  overflow-x: hidden;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+@media (min-width: 300px) and (max-width: 800px){
+  nav {
+    width: 75%;
+  }
+}
+
+@media (min-width: 801px){
+  nav {
+    width: 100%;
+  }
 }
 
 header {
@@ -29,7 +42,7 @@ nav ul {
   background-image: linear-gradient(lightgray, black);
   border-radius: 80px;
   height: 9px;
-  max-width: 100px;
+  max-width: 80px;
   padding-bottom: 10px;
 }
 
@@ -117,13 +130,13 @@ nav li:hover {
 .container-search {
   position: relative;
   top: -2px;
-  margin-left: -10px;
+  margin-left: -25px;
   max-width: 80px;
 }
 
 .icon-search {
   position: absolute;
-  right: 80px;
+  right: 60px;
   color: white;
   top: 5px;
 }
@@ -198,7 +211,7 @@ footer a:visited {
 .products {
   background-color: white;
   height: 200px;
-  margin-top: 120px;
+  margin-top: 60px;
 }
 
 .grid-container {
