@@ -12,13 +12,13 @@ body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
-@media (min-width: 300px) and (max-width: 800px){
+@media (min-width: 300px) and (max-width: 800px) {
   nav {
     width: 75%;
   }
 }
 
-@media (min-width: 801px){
+@media (min-width: 801px) {
   nav {
     width: 100%;
   }
