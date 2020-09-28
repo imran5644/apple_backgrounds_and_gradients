@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/imran5644/apple_backgrounds_and_gradients/2dd8d1c593a07e0128fe99a3b3a3b6582ddc6b3b/index.html)
+[Live Demo Link](https://rawcdn.githack.com/imran5644/apple_backgrounds_and_gradients/7e5cf8a083dcd62a033b41111ee6eb62aa9583db/index.html)
 
 ## Getting Started
 
