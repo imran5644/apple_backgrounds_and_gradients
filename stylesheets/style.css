@@ -220,7 +220,7 @@ footer a:visited {
 @media (min-width: 300px) and (max-width: 1200px) {
   .background {
     width: 1440px;
-  } 
+  }
 
   .products {
     margin-top: 0;
@@ -250,7 +250,6 @@ footer a:visited {
   .footer-section {
     min-width: 100%;
   }
-
 }
 
 .footer-section-ul {
@@ -269,10 +268,6 @@ footer ul {
 footer,
 .wrapper {
   max-width: 100%;
-}
-
-footer,
-.wrapper {
   margin: 0 auto;
 }
 
