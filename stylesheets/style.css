@@ -51,8 +51,7 @@ nav li,
   text-align: center;
 }
 
-.footer-section li
- {
+.footer-section li {
   padding: 0 5px;
   border-right: 1px solid lightgray;
 }
