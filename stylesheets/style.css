@@ -1,0 +1,293 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  min-width: 980px;
+  max-width: 100%;
+}
+
+.background {
+  background-image: url('https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg');
+  background-repeat: no-repeat;
+  background-size: 1800px, 100%;
+  background-position: center -970px;
+}
+
+header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 74%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.input-search {
+  background-color: lightgray;
+  background-image: linear-gradient(lightgray, black);
+  border-radius: 80px;
+  height: 9px;
+  max-width: 80px;
+  padding-bottom: 10px;
+}
+
+nav li {
+  border-right: 1px solid black;
+  min-width: 100px;
+  height: 30px;
+  font-size: 12px;
+  padding-top: 9px;
+}
+
+nav li,
+.background-header {
+  text-align: center;
+}
+
+.footer-section li {
+  padding: 0 5px;
+  border-right: 1px solid lightgray;
+}
+
+.copyright li {
+  margin-left: -2px;
+}
+
+nav {
+  background-image: linear-gradient(lightgrey, black);
+  border-radius: 10px;
+  width: 910px;
+}
+
+nav a {
+  text-decoration: none;
+  line-height: 1.5;
+  display: block;
+}
+
+.logo {
+  font-size: 18px;
+  vertical-align: middle;
+  color: lightgrey;
+}
+
+.border-l {
+  padding-top: 5px;
+}
+
+.border-l:hover {
+  border-radius: 10px 0 0 10px;
+}
+
+nav li:hover {
+  background-image: linear-gradient(darkgrey, black);
+}
+
+.center {
+  line-height: 1.5;
+  vertical-align: middle;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-space {
+  justify-content: space-between;
+}
+
+.last {
+  min-width: 100px;
+}
+
+.copy-last {
+  padding-left: 10px;
+}
+
+.last,
+.footer-section-ul .footer-s-last,
+.copyright .copy-last {
+  border: none;
+}
+
+.last:hover {
+  border-radius: 0 10px 10px 0;
+}
+
+.container-search {
+  position: relative;
+  top: -2px;
+  margin-left: -5px;
+  max-width: 80px;
+}
+
+.icon-search {
+  position: absolute;
+  right: 60px;
+  color: white;
+  top: 5px;
+}
+
+nav a,
+.background-header {
+  color: white;
+}
+
+.background-header h1 {
+  font-size: 60px;
+  margin-top: 20px;
+  padding-top: 20px;
+  font-weight: 100;
+  font-family: 'Roboto Slab', serif;
+}
+
+footer a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.background-header a {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+}
+
+footer a:visited {
+  text-decoration: none;
+  color: #08c;
+}
+
+.background-header p,
+.background-header a:visited,
+.grid-item {
+  font-family: 'Roboto Slab', serif;
+}
+
+.background-header a:visited {
+  font-size: 20px;
+}
+
+.background-header p,
+.background-header a:visited {
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+}
+
+.background-header a:hover {
+  text-decoration: underline;
+}
+
+.background-header i {
+  position: relative;
+  top: 5px;
+}
+
+.background-header p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  height: auto;
+  margin-top: 30px;
+}
+
+.products {
+  background-color: white;
+  height: 200px;
+  margin-top: 47px;
+}
+
+.products img {
+  width: 100%;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.second-description {
+  font-size: 12px;
+}
+
+@media (min-width: 300px) and (max-width: 1200px) {
+  .background {
+    width: 1440px;
+  }
+
+  .products {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .background-header {
+    height: 420px;
+  }
+
+  .background-header h1,
+  .background-header p {
+    width: 800px;
+  }
+
+  .wrapper {
+    min-width: 1200px;
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .background {
+    width: fit-content;
+  }
+
+  .footer-section {
+    min-width: 100%;
+  }
+}
+
+.footer-section-ul {
+  float: right;
+}
+
+.footer-section,
+.copyright {
+  margin: 10px auto;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer,
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+.float-left {
+  float: left;
+}
+
+.copyright {
+  clear: both;
+  padding-top: 20px;
+}
