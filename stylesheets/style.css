@@ -48,7 +48,7 @@ nav li {
 
 nav li,
 .background-header {
-   text-align: center;
+  text-align: center;
 }
 
 .footer-section li {
@@ -109,6 +109,10 @@ nav li:hover {
 
 .last {
   min-width: 100px;
+}
+
+.copy-last {
+  padding-left: 10px;
 }
 
 .last,
