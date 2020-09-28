@@ -13,7 +13,7 @@ body {
   background-image: url('https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg');
   background-repeat: no-repeat;
   background-size: 1800px, 100%;
-  background-position: center -670px;
+  background-position: center -970px;
 }
 
 header {
@@ -60,7 +60,7 @@ nav li,
 nav {
   background-image: linear-gradient(lightgrey, black);
   border-radius: 10px;
-  width: 980px;
+  width: 910px;
 }
 
 nav a {
@@ -105,7 +105,7 @@ nav li:hover {
 }
 
 .last {
-  min-width: 125px;
+  min-width: 100px;
 }
 
 .last,
@@ -121,7 +121,7 @@ nav li:hover {
 .container-search {
   position: relative;
   top: -2px;
-  margin-left: -25px;
+  margin-left: -5px;
   max-width: 80px;
 }
 
@@ -203,12 +203,10 @@ footer a:visited {
   background-color: white;
   height: 200px;
   margin-top: 47px;
-  min-width: fit-content;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+.products img {
+  width: 100%;
 }
 
 .description {
@@ -219,15 +217,10 @@ footer a:visited {
   font-size: 12px;
 }
 
-@media (min-width: 300px) and (max-width: 850px) {
-  .grid-container {
-    grid-template-columns: 23% 23% 23% 24%;
-  }
-
-  .grid-item {
-    text-align: center;
-    min-height: 200px;
-  }
+@media (min-width: 300px) and (max-width: 1200px) {
+  .background {
+    width: 1440px;
+  } 
 
   .products {
     margin-top: 0;
@@ -242,10 +235,22 @@ footer a:visited {
   .background-header p {
     width: 800px;
   }
+
+  .wrapper {
+    min-width: 1200px;
+    padding-left: 100px;
+  }
 }
 
-.footer-section {
-  min-width: 100%;
+@media (min-width: 1201px) {
+  .background {
+    width: fit-content;
+  }
+
+  .footer-section {
+    min-width: 100%;
+  }
+
 }
 
 .footer-section-ul {
@@ -261,13 +266,8 @@ footer ul {
   list-style-type: none;
 }
 
-.background {
-  min-width: fit-content;
-}
-
 footer,
 .wrapper {
-  min-width: 980px;
   max-width: 100%;
 }
 
